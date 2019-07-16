@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px double white;
+}
+h1 {
+    color: white;
+}
+main {
+    height: calc(100vh - 110px);
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.carta{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
